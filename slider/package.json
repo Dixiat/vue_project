@@ -1,0 +1,45 @@
+{
+  "dependencies": {
+    "vue": "^2.0.3"
+  },
+  "name": "slider",
+  "version": "1.0.0",
+  "description": "slider developing by vue",
+  "main": "main.js",
+  "devDependencies": {
+    "babel-core": "^6.18.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-runtime": "^6.18.0",
+    "css-loader": "^0.25.0",
+    "eslint": "^3.8.1",
+    "eslint-config-vue": "^1.1.0",
+    "eslint-plugin-html": "^1.5.5",
+    "eslint-plugin-vue": "^0.1.1",
+    "file-loader": "^0.9.0",
+    "jade": "^1.11.0",
+    "node-sass": "^3.10.1",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^2.3.1",
+    "template-html-loader": "^0.0.3",
+    "vue-hot-reload-api": "^2.0.6",
+    "vue-html-loader": "^1.2.3",
+    "vue-loader": "^9.7.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot --quiet",
+    "build": "set export NODE_ENV=production && webpack --progress --hide-modules"
+  },
+  "keywords": [
+    "slider",
+    "vue"
+  ],
+  "author": "MMJ",
+  "license": "ISC"
+}
